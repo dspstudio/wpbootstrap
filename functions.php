@@ -1,5 +1,6 @@
 <?php
 add_theme_support( 'post-thumbnails' ); 
+require_once('lib/wp_bootstrap_navwalker.php');
 
 ////////////////////////////////////////////////////////////////////
 // Theme Information
