@@ -20,6 +20,7 @@ function dspstudio_theme_stylesheets()
 {
   wp_enqueue_style('bootstrap.css', get_template_directory_uri() . '/lib/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css', array(), NULL, 'all');
   wp_enqueue_style('stylesheet', get_stylesheet_uri(), array(), null, 'all');
+  wp_enqueue_style('carousel.css', get_template_directory_uri() . '/css/carousel.css', array(), NULL, 'all');
   wp_enqueue_style('ie10-viewport-bug-workaround.css', get_template_directory_uri() . '/css/ie10-viewport-bug-workaround.css', array(), NULL, 'all');
 }
 add_action('wp_enqueue_scripts', 'dspstudio_theme_stylesheets');
